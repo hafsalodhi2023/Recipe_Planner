@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --pastry: url("assets/pastry.png");
+  --french-toast: url("assets/french-toast.png");
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--color-cream);
+  color: var(--color-dark-olive);
+}
+
+@theme {
+  /* _________ Colors _________ */
+
+  --color-cream: oklch(97.9% 0.018 78.2);
+  --color-subtle-cream: oklch(0.943 0.051 78.73);
+
+  --color-primary-olive: oklch(72% 0.077 115.8);
+  --color-subtle-olive: oklch(0.523 0.056 115.68);
+  --color-dark-olive: oklch(0.334 0.037 116.81);
+
+  --color-secondary-beige: oklch(95.8% 0.023 82.1);
+  --color-subtle-beige: oklch(0.913 0.053 83.96);
+
+  --color-accent-raspberry: oklch(57.5% 0.183 8.5);
+
+  /* _________ Fonts _________ */
+  --font-fraunces: "Fraunces", serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+}
