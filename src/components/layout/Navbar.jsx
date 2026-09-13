@@ -34,15 +34,14 @@ function Navbar() {
             style={"soft"}
             hover={"soft"}
             to={"/signin"}
-            customStyle={""}
+            customStyle={"text-[9px] sm:text-sm"}
           />
           <Button
             text={"GET STARTED"}
             style={"bold"}
-            icon={
-              <FaLongArrowAltRight className="w-0 opacity-0 overflow-hidden group-hover:w-3 group-hover:opacity-100 transition-all  duration-300 ease-out " />
-            }
+            icon={<FaLongArrowAltRight />}
             hover={"bold"}
+            customStyle={"text-[9px] sm:text-sm"}
           />
         </div>
       </div>

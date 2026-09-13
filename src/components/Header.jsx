@@ -23,9 +23,7 @@ function Header() {
           text={"FIND MY RECIPE"}
           style={"bold"}
           hover={"soft"}
-          icon={
-            <IoFastFood className="w-0 opacity-0 overflow-hidden group-hover:w-3 group-hover:opacity-100 transition-all  duration-300 ease-out" />
-          }
+          icon={<IoFastFood />}
         />
       </div>
       <img

@@ -3,26 +3,43 @@ import Logo from "../assets/PictorialLogo.png";
 
 import Button from "../components/common/Button";
 
+import { Link, useNavigate } from "react-router-dom";
+
 import { MdAlternateEmail } from "react-icons/md";
 import { MdOutlinePassword } from "react-icons/md";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
-import { Link } from "react-router-dom";
+import { FaLongArrowAltLeft } from "react-icons/fa";
 
 function Login() {
+  let navigate = useNavigate();
   return (
-    <div className="relative w-full h-dvh grid grid-cols-1 lg:grid-cols-2">
-      <div className="hidden lg:flex items-center justify-end">
+    <div className="relative w-full h-screen grid grid-cols-1 lg:grid-cols-2">
+      <div className="relative hidden lg:flex items-end justify-center flex-col">
+        <Button
+          text={"GO BACK"}
+          customStyle={"absolute top-3 left-3"}
+          onclick={() => navigate(-1)}
+          style={"bold"}
+          hover={"soft"}
+          icon={<FaLongArrowAltLeft />}
+          iconPosition={"left"}
+        />
         <img
           src={SpilledVeggies}
           alt=""
           className="w-full object-contain max-w-180"
         />
       </div>
-      <div className="px-4 sm:px-8 flex items-center justify-center">
-        <form className="z-3 h-160 w-full max-w-140 flex flex-col items-center py-6 lg:py-8 px-8 bg-subtle-beige/20 border border-primary-olive/30 shadow-sm rounded-4xl ">
+      <div className="relative px-4 sm:px-8 flex items-center justify-center">
+        <Button
+          text={"GO BACK"}
+          customStyle={"absolute top-0 left-0 underline lg:hidden"}
+          onclick={() => navigate(-1)}
+        />
+        <form className="z-3 w-full max-w-140 flex flex-col items-center py-8 px-8 bg-subtle-beige/20 border border-primary-olive/30 shadow-sm rounded-4xl ">
           <img src={Logo} alt="" className="w-20 mb-3" />
           <h1 className="text-2xl font-fraunces font-medium text-dark-olive mb-8">
             Kitchen Access
@@ -65,10 +82,8 @@ function Login() {
           <Button
             text={"LET'S COOK"}
             style={"bold"}
-            customStyle={"w-full "}
-            icon={
-              <FaLongArrowAltRight className="w-0 opacity-0 overflow-hidden group-hover:w-3 group-hover:opacity-100 transition-all  duration-300 ease-out " />
-            }
+            customStyle={"w-full py-3.5"}
+            icon={<FaLongArrowAltRight />}
             hover={"bold"}
           />
           <p className="w-full text-lg text-center font-medium text-primary-olive mt-8 mb-8">
