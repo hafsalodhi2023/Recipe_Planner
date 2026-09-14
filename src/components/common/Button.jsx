@@ -39,7 +39,7 @@ function Button({
   );
 
   const iconClasses =
-    "w-0 opacity-0 overflow-hidden group-hover:w-3 group-hover:opacity-100 transition-all duration-300 ease-out";
+    "w-0 opacity-0 overflow-hidden group-hover:w-4 group-hover:opacity-100 transition-all duration-300 ease-out";
 
   return (
     <Link to={to} onClick={onclick} className={buttonClasses}>

@@ -41,6 +41,7 @@ function Navbar() {
             style={"bold"}
             icon={<FaLongArrowAltRight />}
             hover={"bold"}
+            to={"/signup"}
             customStyle={"text-[9px] sm:text-sm"}
           />
         </div>
