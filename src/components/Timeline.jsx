@@ -8,7 +8,7 @@ import { PiCirclesThreeBold } from "react-icons/pi";
 
 function Timeline() {
   return (
-    <div className="w-full flex flex-col items-center pt-15 lg:pt-25 px-6 sm:px-8 xl:px-20">
+    <div className="w-full flex flex-col items-center mt-30 px-6 sm:px-8 xl:px-20">
       <Title
         heading={"From “What do I cook?” to “Dinner is sorted.”"}
         eyebrow={"HOW IT WORKS"}
@@ -18,7 +18,7 @@ function Timeline() {
         eyebrowIcon={<FaQuestion />}
         descriptionIcon={<PiCirclesThreeBold className="mt-1" />}
       />
-      <div className="relative w-full h-150 mt-15 lg:mt-20 grid grid-cols-2 grid-rows-3 ">
+      <div className="relative w-full h-150 mt-15 grid grid-cols-2 grid-rows-3 ">
         {steps.map((item, index) => (
           <TimelineItem
             key={index}

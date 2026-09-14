@@ -3,6 +3,8 @@
 :root {
   --pastry: url("assets/pastry.png");
   --french-toast: url("assets/french-toast.png");
+  --mobile-recipeShowcase-arrow: url("assets/recipesShowcaseArrowmb.png");
+  --dsk-recipeShowcase-arrow: url("assets/recipesShowcaseArrowdskt.png");
 }
 
 body {
@@ -29,4 +31,9 @@ body {
   /* _________ Fonts _________ */
   --font-fraunces: "Fraunces", serif;
   --font-dm-sans: "DM Sans", sans-serif;
+}
+
+.arrow {
+  filter: brightness(0) saturate(100%) invert(39%) sepia(30%) saturate(440%)
+    hue-rotate(29deg) brightness(96%) contrast(87%);
 }
