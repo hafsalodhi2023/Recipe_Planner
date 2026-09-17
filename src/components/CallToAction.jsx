@@ -25,6 +25,7 @@ function CallToAction() {
             style={"bold"}
             customStyle={"w-fit mx-auto lg:m-0 "}
             icon={<FaArrowAltCircleRight />}
+            to={"/recipes"}
           />
         </div>
         <div className="hidden w-1/2 lg:block h-80 pl-10">

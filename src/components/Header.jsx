@@ -24,6 +24,7 @@ function Header() {
           style={"bold"}
           hover={"soft"}
           icon={<IoFastFood />}
+          to={"/recipes"}
         />
       </div>
       <img

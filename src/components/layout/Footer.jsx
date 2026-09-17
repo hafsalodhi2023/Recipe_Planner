@@ -14,9 +14,7 @@ function Footer() {
       </p>
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-[1.5fr_1fr_1fr] gap-x-7 gap-y-15 py-10 border-t border-b border-primary-olive/50 text-center sm:text-left">
         <div className="flex flex-col gap-4">
-          <Link>
-            <img src={Logo} alt="" className="w-40 mx-auto sm:mx-0" />
-          </Link>
+          <img src={Logo} alt="" className="w-40 mx-auto sm:mx-0" />
           <p className="text-sm text-subtle-olive max-w-65 mx-auto sm:mx-0">
             Turn the ingredients you have into something delicious, one recipe
             at a time.
@@ -24,9 +22,15 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-4">
           <h3 className="text-xs text-primary-olive font-bold pb-2">EXPLORE</h3>
-          <Link className="text-sm text-subtle-olive/80 ">Home</Link>
-          <Link className="text-sm text-subtle-olive/80 ">Recipes</Link>
-          <Link className="text-sm text-subtle-olive/80 ">How it works</Link>
+          <Link className="text-sm text-subtle-olive/80 " to={"/"}>
+            Home
+          </Link>
+          <Link className="text-sm text-subtle-olive/80 " to={"/recipes"}>
+            Recipes
+          </Link>
+          <Link className="text-sm text-subtle-olive/80 " to={"/contact"}>
+            Contact
+          </Link>
         </div>
         <div className="flex flex-col gap-4">
           <h3 className="text-xs text-primary-olive font-bold pb-2">

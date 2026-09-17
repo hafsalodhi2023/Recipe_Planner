@@ -72,6 +72,7 @@ function RecipeShowcase() {
             style={"bold"}
             hover={"bold"}
             customStyle={"w-fit mt-3 md:mt-0"}
+            to={"/recipes"}
           />
         </div>
         <div className="arrow arrow_mobile absolute w-20 h-35 bg-(image:--mobile-recipeShowcase-arrow) bg-no-repeat bg-contain left-[50%] -bottom-38 translate-x-[-50%] xl:hidden" />

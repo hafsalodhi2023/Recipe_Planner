@@ -5,14 +5,14 @@ export const navLinks = [
   },
   {
     text: "ABOUT",
-    to: "/",
-  },
-  {
-    text: "HOW IT WORKS",
-    to: "/#HOWITWORKS",
+    to: "/about",
   },
   {
     text: "RECIPES",
-    to: "/",
+    to: "/recipes",
+  },
+  {
+    text: "CONTACT",
+    to: "/contact",
   },
 ];
