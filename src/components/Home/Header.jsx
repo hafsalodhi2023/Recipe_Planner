@@ -1,5 +1,5 @@
-import HeaderImg from "../assets/Header.png";
-import Button from "./common/Button";
+import HeaderImg from "../../assets/Header.png";
+import Button from "../common/Button";
 
 import { IoFastFood } from "react-icons/io5";
 

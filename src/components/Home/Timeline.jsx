@@ -1,6 +1,6 @@
-import { steps } from "../Data/Timeline";
+import { steps } from "../../Data/Timeline";
 
-import Title from "./common/Title";
+import Title from "../common/Title";
 import TimelineItem from "./TimelineItem";
 
 import { FaQuestion } from "react-icons/fa";

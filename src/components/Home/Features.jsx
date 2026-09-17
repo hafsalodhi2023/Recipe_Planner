@@ -1,5 +1,5 @@
-import Title from "./common/Title";
-import { features } from "../Data/Features";
+import Title from "../common/Title";
+import { features } from "../../Data/Features";
 
 import { TiHeart } from "react-icons/ti";
 

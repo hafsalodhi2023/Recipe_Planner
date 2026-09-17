@@ -1,10 +1,10 @@
-import Title from "./common/Title";
-import Button from "./common/Button";
+import Title from "../common/Title";
+import Button from "../common/Button";
 
 import { PiStarFourFill } from "react-icons/pi";
 import { FaClock, FaLongArrowAltRight } from "react-icons/fa";
 import { VscImportantCompact } from "react-icons/vsc";
-import { recipes } from "../Data/Recipes";
+import { recipes } from "../../Data/Recipes";
 
 const ingredients = [
   { emoji: "🥕", name: "Carrot" },

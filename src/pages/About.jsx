@@ -1,5 +1,13 @@
+import Abc from "../components/About/abc";
+import Header from "../components/About/Header";
+
 function About() {
-  return <div>About</div>;
+  return (
+    <>
+      <Header />
+      <Abc />
+    </>
+  );
 }
 
 export default About;

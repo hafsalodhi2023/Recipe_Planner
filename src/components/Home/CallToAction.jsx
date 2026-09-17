@@ -1,6 +1,6 @@
-import CTAimage from "../assets/cta.png";
+import CTAimage from "../../assets/cta.png";
 
-import Button from "./common/Button";
+import Button from "../common/Button";
 
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
