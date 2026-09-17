@@ -7,6 +7,10 @@
   --dsk-recipeShowcase-arrow: url("assets/recipesShowcaseArrowdskt.png");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
   background-color: var(--color-cream);

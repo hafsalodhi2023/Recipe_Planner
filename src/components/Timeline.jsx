@@ -8,7 +8,10 @@ import { PiCirclesThreeBold } from "react-icons/pi";
 
 function Timeline() {
   return (
-    <div className="w-full flex flex-col items-center mt-30 px-6 sm:px-8 xl:px-20">
+    <div
+      id="HOWITWORKS"
+      className="w-full flex flex-col items-center mt-30 px-6 sm:px-8 xl:px-20"
+    >
       <Title
         heading={"From “What do I cook?” to “Dinner is sorted.”"}
         eyebrow={"HOW IT WORKS"}

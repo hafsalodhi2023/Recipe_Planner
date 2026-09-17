@@ -84,7 +84,7 @@ function RecipeShowcase() {
           eyebrow={"YOUR POSSIBILITIES"}
           eyebrowIcon={<VscImportantCompact />}
         />
-        <div className="w-full flex items-center justify-center gap-10 flex-wrap px-10 mt-15">
+        <div className="w-full flex items-center justify-center gap-10 flex-wrap mt-15">
           {recipes.map((recipe, idx) => (
             <div
               key={idx}

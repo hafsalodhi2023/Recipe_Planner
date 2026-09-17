@@ -13,10 +13,8 @@ import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 import { RiAccountCircle2Fill } from "react-icons/ri";
 import { FcGoogle } from "react-icons/fc";
-import { FaLongArrowAltLeft } from "react-icons/fa";
 
 function Register() {
-  let navigate = useNavigate();
   return (
     <div className="relative w-full h-screen grid grid-cols-1 lg:grid-cols-2">
       <div className="relative hidden lg:flex items-center justify-end">
@@ -26,7 +24,7 @@ function Register() {
           className="w-full object-contain max-w-180"
         />
       </div>
-      <div className="relative px-4 sm:px-8 flex items-center justify-center">
+      <div className="relative py-10 px-4 sm:px-8 flex items-center justify-center">
         <form className="z-3 w-full max-w-140 flex flex-col items-center py-8 px-8 bg-subtle-beige/20 border border-primary-olive/30 shadow-sm rounded-4xl ">
           <img src={Logo} alt="" className="w-20 mb-3" />
           <h1 className="text-2xl font-fraunces font-medium text-dark-olive mb-8">

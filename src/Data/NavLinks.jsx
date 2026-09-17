@@ -9,7 +9,7 @@ export const navLinks = [
   },
   {
     text: "HOW IT WORKS",
-    to: "",
+    to: "/#HOWITWORKS",
   },
   {
     text: "RECIPES",
