@@ -12,7 +12,7 @@ function Header() {
         >
           A LITTLE HELP FROM YOUR KITCHEN
         </p>
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-fraunces font-medium mb-1 text-center lg:text-left">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-fraunces font-medium mb-1 text-center lg:text-left text-accent-raspberry">
           What's Cooking Today?
         </h1>
         <p className="mb-6 text-center text-sm sm:text-base lg:text-left">
