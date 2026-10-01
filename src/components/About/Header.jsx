@@ -13,7 +13,7 @@ function Header() {
         🍅
       </div>
 
-      <div className="pointer-events-none absolute bottom-8 right-[15%] text-3xl rotate-[-12deg] opacity-60">
+      <div className="pointer-events-none absolute bottom-8 right-[15%] text-3xl -rotate-12 opacity-60">
         🧅
       </div>
       <div className="h-full w-full lg:w-1/2 pt-15 px-10 sm:px-20 lg:px-0 lg:pt-0 flex items-center justify-center text-center lg:text-left lg:items-start flex-col">

@@ -22,7 +22,7 @@ body {
 
   --color-cream: oklch(97.9% 0.018 78.2);
   --color-subtle-cream: oklch(0.943 0.051 78.73);
-
+  --color-dark-cream: oklch(0.762 0.156 89.16);
   --color-primary-olive: oklch(72% 0.077 115.8);
   --color-subtle-olive: oklch(0.523 0.056 115.68);
   --color-dark-olive: oklch(0.334 0.037 116.81);
