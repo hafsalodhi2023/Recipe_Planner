@@ -1,7 +1,5 @@
-import Abc from "../components/About/abc";
-
 function Contact() {
-  return <Abc />;
+  return <div></div>;
 }
 
 export default Contact;

@@ -1,8 +1,7 @@
+import Abc from "../components/About/abc";
 
 function Recipes() {
-  return (
-    <div>Recipes</div>
-  )
+  return <Abc />;
 }
 
-export default Recipes
+export default Recipes;
